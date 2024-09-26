@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         {/* Logo */}
         <div className="text-2xl font-bold">
           <a href="/" className="hover:text-blue-500 transition">
-            Bedtime Stories
+            Magic Bedtime Stories
           </a>
         </div>
 
