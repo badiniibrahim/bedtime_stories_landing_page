@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Bedtime stories",
+  title: "Magic Bedtime Stories",
   description: "Create magical bedtime stories with the power of AI",
 };
 
