@@ -21,11 +21,12 @@ const Features: React.FC = () => {
           />
 
           <motion.a
-            href="#features"
+            href="https://play.google.com/store/apps/details?id=com.badiniibrahim.magic_bedtime_stories&gl=FR"
             className="inline-block px-8 py-4  text-black rounded-full font-medium text-lg "
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
+            target="_blank"
           >
             <Image
               src="/Play-Store.png"
