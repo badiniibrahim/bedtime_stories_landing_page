@@ -20,22 +20,36 @@ const Features: React.FC = () => {
             height={500}
           />
 
-          <motion.a
-            href="https://play.google.com/store/apps/details?id=com.badiniibrahim.magic_bedtime_stories&gl=FR"
-            className="inline-block px-8 py-4  text-black rounded-full font-medium text-lg "
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            target="_blank"
-          >
-            <Image
-              src="/Play-Store.png"
-              alt="Bedtime Story Illustration"
-              className="rounded-lg mt-3"
-              width={150}
-              height={150}
-            />
-          </motion.a>
+          <div className="flex flex-row">
+            <motion.a
+              href="https://play.google.com/store/apps/details?id=com.badiniibrahim.magic_bedtime_stories&gl=FR"
+              className="inline-block px-8 py-4  text-black rounded-full font-medium text-lg "
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              target="_blank"
+            >
+              <Image
+                src="/Play-Store.png"
+                alt="Bedtime Story Illustration"
+                className="rounded-lg mt-3"
+                width={150}
+                height={150}
+              />
+            </motion.a>
+            <a
+              href="https://www.producthunt.com/products/magic-bedtime-stories?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-magic&#0045;bedtime&#0045;stories"
+              target="_blank"
+              className="mt-5"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=610709&theme=light"
+                alt="Magic&#0032;Bedtime&#0032;Stories - magical&#0032;bedtime&#0032;stories | Product Hunt"
+                width="250"
+                height="54"
+              />
+            </a>
+          </div>
         </motion.div>
 
         <div className="md:w-1/2">
